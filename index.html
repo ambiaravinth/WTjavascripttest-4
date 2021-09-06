@@ -1,0 +1,23 @@
+<!DOCTYPE html5>
+<head>
+    <body>
+        <script>
+            var num1 = window.prompt("How many names: ");
+            var i;
+            arr = new Array();
+            for(i=0; i<num1; i++)
+                arr[i] = window.prompt("Enter name: ");
+        </script>
+        <h2>Ascending Order:</h2>
+        <script>
+            for(i=0; i<num1; i++)
+                document.writeln(arr[i]);
+        </script>    
+        <h2>Descending Order:</h2>
+        <script>
+            for(i=i-1; i>=0; i--)
+                document.writeln(arr[i]);   
+        </script>
+    </body>
+</head>
+</html>
